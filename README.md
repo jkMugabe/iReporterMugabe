@@ -1,4 +1,6 @@
-# iReporterMugabe
-##iReport Project is aimed at reporting corrruption and bad service in our 
-communities tothe responsible Authorities using our phones or computer after a person has created an account.
-Reporting corruption and Bad service
+# iReporter-Mugabe
+##Corruption is a huge bane to Africa’s development. African countries must develop novel and
+localised solutions that will curb this menace, hence the birth of iReporter. iReporter enables
+any/every citizen to bring any form of corruption to the notice of appropriate authorities and the
+general public. Users can also report on things that needs government intervention.
+
