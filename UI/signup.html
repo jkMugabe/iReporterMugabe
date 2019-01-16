@@ -3,15 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>iReporter|Login</title>
-    <link rel="stylesheet" type ="text/css" href="../static/login.css">
+    <title>iReporter|signup</title>
+    <link rel="stylesheet" type ="text/css" href="../static/signup.css">
 </head>
 <body>
         <header>
             <div>
                 <h1><span class="highlight">!</span>REPORT <span class="highlight">CORRUPTION</span> AND <span class="highlight">BAD SERVICE</span></h1>
             </div>
-
 
         </header>
 
@@ -33,18 +32,21 @@
         </div>
 
         <!-- side bar> -->
-        <aside>
-                <h1>Login into your account</h1>
-                <div >
-                    <form action="" method="post" id="">
-                        <label> UserNane:<br><input type="text" name="UserNane" placeholder="UserNane" required="required"></label><br>
-                        <label> Password:<br><input type="password" name="password" placeholder="Password" required="required"></label><br>
-                        <input type="submit" value="Login"/>
-                    </form>
+        <aside id="sidebar">
+            <div class="signup">
+                <h2><b><a href="login.html">Already have an account</a></b></h2>
+
+                <h1>Sign Up For a New Account</h1>
+                <form action="" method="post" id="">
+                    <label> First Name:<br><input type="text" name="First Name" placeholder="First Name" required="required"></label><br>
+                    <label> Last Name:<br><input type="text" name="Last Name" placeholder="Last Name" required="required"></label><br>
+                    <label> Email:<br><input type="email" name="email" placeholder="Enter your email" required="required"></label><br>
+                    <label> Password:<br><input type="password" name="password" placeholder="Password" required="required"></label><br>
+                    <label> Confirm Password:<br><input type="password" name="password" placeholder="Confirm Password " required="required"></label><br>
                     <br>
-                    <br>
-                    <h2><b><a href="signup.html">Don't have an account</a></b></h2>
-                </div>
+                    <input type="submit" value="Signup" >
+                </form>
+            </div>
         </aside>
 
         <footer>

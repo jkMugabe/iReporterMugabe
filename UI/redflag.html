@@ -3,14 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>iReporter|Login</title>
-    <link rel="stylesheet" type ="text/css" href="../static/login.css">
+    <title>iReporter|RedFlag/Intervention</title>
+    <link rel="stylesheet" type ="text/css" href="../static/redflag.css">
 </head>
 <body>
         <header>
             <div>
                 <h1><span class="highlight">!</span>REPORT <span class="highlight">CORRUPTION</span> AND <span class="highlight">BAD SERVICE</span></h1>
             </div>
+            <ul>
+  <li><a class="active" href="redflag.html">Home</a></li>
+  <li><a href="profile.html">Profile</a></li>
+  <li><a href="#contact">Contact Us</a></li>
+  <li style="float:right"><a href="admin.html">Administration</a></li>
+    </ul>
 
 
         </header>
@@ -34,16 +40,23 @@
 
         <!-- side bar> -->
         <aside>
-                <h1>Login into your account</h1>
+                <h1>Create a Red Flag/ Intervation Record</h1>
                 <div >
                     <form action="" method="post" id="">
-                        <label> UserNane:<br><input type="text" name="UserNane" placeholder="UserNane" required="required"></label><br>
-                        <label> Password:<br><input type="password" name="password" placeholder="Password" required="required"></label><br>
-                        <input type="submit" value="Login"/>
+                        <select name="Record">
+                        <option value="RED FLAG">RED FLAG</option>
+                        <option value="INTERVATION RECORD">INTERVATION RECORD</option>  </select>
+                        <textarea name="redflag" cols="60" rows="16" required="required">Create a Red Flag
+                        </textarea>
+                        <br>
+                        <input type="text" value="Add Geo-location" >
+                        <!-- <p>Attach Photo/photo/Video:</p> -->
+                        <input type="submit" value="CREATE" /><br>
+                        <h2><strong>Attach a video/Photo</strong>
+                        <input type="file" name="photo/video" /></h2>
+
+                        <!-- <input type="submit" value="Create" > -->
                     </form>
-                    <br>
-                    <br>
-                    <h2><b><a href="signup.html">Don't have an account</a></b></h2>
                 </div>
         </aside>
 
